@@ -5,8 +5,8 @@ alacritty configuration is synced for user '{{ user.name }}':
   file.recurse:
     - name: {{ user._alacritty.confdir }}
     - source:
-      - salt://user/{{ user.name }}/dotfiles/alacritty
-      - salt://user/dotfiles/alacritty
+      - salt://dotconfig/{{ user.name }}/alacritty
+      - salt://dotconfig/alacritty
     - context:
         user: {{ user }}
     - template: jinja
