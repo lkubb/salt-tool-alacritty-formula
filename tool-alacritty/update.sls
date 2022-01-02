@@ -1,6 +1,6 @@
 {%- from 'tool-alacritty/map.jinja' import alacritty %}
 
-{%- if alacritty.users | selectattr('dotconfig') %}
+{%- if alacritty.users | selectattr('dotconfig', 'defined') | selectattr('dotconfig') %}
 include:
   - .configsync
 {%- endif %}

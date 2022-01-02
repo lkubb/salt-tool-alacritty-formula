@@ -1,6 +1,6 @@
 {%- from 'tool-alacritty/map.jinja' import alacritty %}
 
-{%- for user in alacritty.users | selectattr('dotconfig') %}
+{%- for user in alacritty.users | selectattr('dotconfig', 'defined') | selectattr('dotconfig') %}
 alacritty configuration is synced for user '{{ user.name }}':
   file.recurse:
     - name: {{ user._alacritty.confdir }}
