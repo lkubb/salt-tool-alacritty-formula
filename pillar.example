@@ -1,0 +1,9 @@
+tool:
+  users:
+    user:
+      dotconfig: true
+
+  alacritty:
+    users:        # you can add alacritty-specific user data like in tool:users
+      user:
+        dotconfig: false
