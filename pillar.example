@@ -1,9 +1,6 @@
 tool:
   users:
     user:
+      # sync alacritty configuration from dotfiles repo available as
+      # salt://dotconfig/<user>/alacritty or salt://dotconfig/alacritty
       dotconfig: true
-
-  alacritty:
-    users:        # you can add alacritty-specific user data like in tool:users
-      user:
-        dotconfig: false

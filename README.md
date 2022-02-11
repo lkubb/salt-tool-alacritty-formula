@@ -46,6 +46,8 @@ tool:
 The following shows an example of `tool-alacritty` pillar configuration. Namespace it to `tool:users` and/or `tool:alacritty:users`.
 ```yaml
 user:
+  # sync alacritty configuration from dotfiles repo available as
+  # salt://dotconfig/<user>/alacritty or salt://dotconfig/alacritty
   dotconfig: true
 ```
 
