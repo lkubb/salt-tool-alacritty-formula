@@ -48,7 +48,10 @@ The following shows an example of `tool-alacritty` pillar configuration. Namespa
 user:
   # sync alacritty configuration from dotfiles repo available as
   # salt://dotconfig/<user>/alacritty or salt://dotconfig/alacritty
-  dotconfig: true
+  dotconfig:              # can be bool or mapping
+    file_mode: '0600'     # default: keep destination or salt umask (new)
+    dir_mode: '0700'      # default: 0700
+    clean: false          # delete files in target. default: false
 ```
 
 #### Formula-specific
