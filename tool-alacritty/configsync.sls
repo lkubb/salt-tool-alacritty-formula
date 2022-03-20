@@ -10,7 +10,7 @@ alacritty configuration is synced for user '{{ user.name }}':
       - salt://dotconfig/{{ user.name }}/alacritty
       - salt://dotconfig/alacritty
     - context:
-        user: {{ user }}
+        user: {{ user | json }}
     - template: jinja
     - user: {{ user.name }}
     - group: {{ user.group }}
