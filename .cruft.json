@@ -1,0 +1,50 @@
+{
+  "template": "https://github.com/lkubb/salt-tool-template-formula",
+  "commit": "293286e565e11df9e71ac744e3d55394cf302aaa",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "_extensions": [
+        "local_extensions.YAMLDumper"
+      ],
+      "_jinja2_env_vars": {
+        "block_start_string": "{!",
+        "block_end_string": "!}",
+        "variable_start_string": "{=",
+        "variable_end_string": "=}",
+        "comment_start_string": "{@",
+        "comment_end_string": "@}"
+      },
+      "name": "Alacritty",
+      "abbr": "alacritty",
+      "abbr_pysafe": "alacritty",
+      "pkg": "alacritty",
+      "modstate": "n",
+      "needs_repo": "n",
+      "has_service": "n",
+      "mac_library": "n",
+      "mac_cask": "y",
+      "has_xdg": "y",
+      "needs_xdg_help": "n",
+      "has_conffile_only": "n",
+      "default_confdir": ".config/alacritty",
+      "default_confdir_mac": ".config/alacritty",
+      "default_conffile": "alacritty.yml",
+      "xdg_dirname": "alacritty",
+      "xdg_conffile": "alacritty.yml",
+      "has_configsync": "y",
+      "has_config_template": "y",
+      "has_tests": "y",
+      "git_username": "lkubb",
+      "_lookup": {},
+      "_settings": {},
+      "_usersettings": {
+        "config": {
+          "decorations": "none"
+        }
+      },
+      "_template": "https://github.com/lkubb/salt-tool-template-formula"
+    }
+  },
+  "directory": null
+}
