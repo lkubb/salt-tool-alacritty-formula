@@ -9,6 +9,7 @@
 include:
   - {{ sls_config_clean }}
 
+
 Alacritty is removed:
   pkg.removed:
     - name: {{ alacritty.lookup.pkg.name }}

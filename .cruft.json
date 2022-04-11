@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/lkubb/salt-tool-template-formula",
-  "commit": "293286e565e11df9e71ac744e3d55394cf302aaa",
+  "commit": "b6857da39f76771bbfbeaf6fab8389d62179eef9",
   "checkout": null,
   "context": {
     "cookiecutter": {
@@ -34,6 +34,7 @@
       "xdg_conffile": "alacritty.yml",
       "has_configsync": "y",
       "has_config_template": "y",
+      "has_completions": "n",
       "has_tests": "y",
       "git_username": "lkubb",
       "_lookup": {},

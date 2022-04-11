@@ -5,6 +5,7 @@
 {%- set tplroot = tpldir.split('/')[0] %}
 {%- from tplroot ~ "/map.jinja" import mapdata as alacritty with context %}
 
+
 Alacritty is installed:
   pkg.installed:
     - name: {{ alacritty.lookup.pkg.name }}

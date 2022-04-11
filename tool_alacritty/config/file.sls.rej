@@ -1,0 +1,10 @@
+diff a/tool_alacritty/config/file.sls b/tool_alacritty/config/file.sls	(rejected hunks)
+@@ -17,7 +17,7 @@ Alacritty config file is managed for user '{{ user.name }}':
+   file.managed:
+     - name: {{ user['_alacritty'].conffile }}
+     - source: {{ files_switch([alacritty.lookup.paths.conffile],
+-                              lookup='Alacritty config file is managed for user \'{{ user.name }}\'',
++                              lookup="Alacritty config file is managed for user '{}'".format(user.name),
+                               opt_prefixes=[user.name])
+               }}
+     - mode: '0600'
