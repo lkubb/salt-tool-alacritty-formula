@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # vim: ft=yaml
 ---
 tool_global:
@@ -24,6 +23,9 @@ tool_alacritty:
     paths:
       confdir: '.config/alacritty'
       conffile: 'alacritty.yml'
+      xdg_dirname: 'alacritty'
+      xdg_conffile: 'alacritty.yml'
+    rootgroup: root
 
   tofs:
     # The files_switch key serves as a selector for alternative

@@ -25,6 +25,8 @@ values:
     paths:
       confdir: '.config/alacritty'
       conffile: 'alacritty.yml'
+      xdg_dirname: 'alacritty'
+      xdg_conffile: 'alacritty.yml'
     rootgroup: root
   map_jinja:
     sources:
