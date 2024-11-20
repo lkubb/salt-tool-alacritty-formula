@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "salt_tool_alacritty"
+name = "tool_alacritty_formula"
 version = "1.0.0"
 description = "Saltstack states to manage Alacritty"
 authors = ["lkubb"]

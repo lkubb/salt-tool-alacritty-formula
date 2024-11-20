@@ -1,5 +1,5 @@
-Welcome to salt-tool-alacritty-formula's documentation!
-=======================================================
+Welcome to tool-alacritty-formula's documentation!
+==================================================
 
 .. toctree::
    :maxdepth: 2
